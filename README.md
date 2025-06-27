@@ -24,5 +24,7 @@ This project focuses on detecting potential signs of stroke by analyzing **retin
 ---
 
 Models link: https://drive.google.com/drive/folders/1GoZTkPHl9cWGL4dg1kanoO8be-b4ptzZ?usp=sharing
+
 Demo Link: https://drive.google.com/drive/folders/1c-A7L_XZFQ0Elm1Jqhbe4fK2X54tOuSv?usp=drive_link
+
 Dataset Link: https://drive.google.com/drive/folders/1ShNqNH3IVJoEn6ezApSGCwdhzQqZfe84?usp=sharing
