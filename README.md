@@ -1,26 +1,28 @@
-Stroke Risk Detection Using Retinal Fundus Images
-This project focuses on detecting potential signs of stroke by analyzing retinal fundus images using deep learning. It combines vessel segmentation, vascular feature extraction, and narrowing classification to assess stroke risk in a non-invasive and efficient way.
+# 🧠 Stroke Risk Detection Using Retinal Fundus Images
 
-Project Pipeline
-The flow of the project includes the following steps:
+This project focuses on detecting potential signs of stroke by analyzing **retinal fundus images** using deep learning. It combines vessel segmentation, vascular feature extraction, and narrowing classification to assess stroke risk in a non-invasive and efficient way.
 
-Image Preprocessing
+---
 
-Enhance retinal images and normalize input for segmentation.
+## 📌 Project Workflow
 
-Vessel Segmentation
+1. **Image Preprocessing**  
+   Enhance and normalize retinal fundus images for model input.
 
-A custom-trained Improved U-Net model is used to segment retinal blood vessels from fundus images.
+2. **Vessel Segmentation**  
+   Segment blood vessels using a trained **Improved U-Net** model.
 
-Feature Extraction
+3. **Feature Extraction**  
+   Apply **skeletonization** to the segmented vessels and extract features such as vessel width.
 
-The segmented vessel masks are processed using skeletonization to extract vessel width and pattern.
+4. **Narrowing Detection**  
+   Use a rule-based approach to detect narrowed arteries that may indicate stroke risk.
 
-Narrowing Detection
+5. **Stroke Risk Assessment**  
+   Visualize the narrowed areas and generate a risk label (e.g., Low / High).
 
-A rule-based narrowing classifier analyzes vessel width to detect possible arterial narrowing, which may indicate stroke risk.
+---
 
-Risk Assessment
-
-Final output highlights narrowed regions and provides a risk label.
-
+Models link: https://drive.google.com/drive/folders/1GoZTkPHl9cWGL4dg1kanoO8be-b4ptzZ?usp=sharing
+Demo Link: https://drive.google.com/drive/folders/1c-A7L_XZFQ0Elm1Jqhbe4fK2X54tOuSv?usp=drive_link
+Dataset Link: https://drive.google.com/drive/folders/1ShNqNH3IVJoEn6ezApSGCwdhzQqZfe84?usp=sharing
